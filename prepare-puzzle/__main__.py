@@ -41,7 +41,7 @@ def download(year, day):
 
     # Write template test
     template_path = Path(__file__).parent / "template_test.py"
-    test_path = Path(day_path) / "test_solution.py"
+    test_path = Path(day_path) / "solution_test.py"
     if not test_path.exists():
         template = template_path.read_text()
         template = template.replace("{YEAR}", str(year))

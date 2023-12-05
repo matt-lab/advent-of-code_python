@@ -45,24 +45,6 @@ def test_get_int_words():
                                     "seven": 7, "eight": 8, "nine": 9
                                     }
 
-# @pytest.mark.parametrize(
-#     "input,expected",
-#     [
-#         ("two1nine", "219"),
-#         ("4nineeightseven2", "49872"),
-#         ("abcone2threexyz", "abc123xyz"),
-#         ("33", "33"),
-#         ("279four", "2794"),
-#         ("eightwothree", "8wo3"),
-#         ("xtwone3four", "x2ne34"),
-#         ("4nineeightseven2", "49872"),
-#         ("7pqrstsixteen", "7pqrst6teen"),
-#         ("zoneight234", "z1234")
-
-#     ])
-# def test_convert_line_to_int(input, expected):
-#     """Test that spelling is converted to ints."""
-#     assert solution.convert_line_to_int(input) == expected
 
 def test_get_ints_from_line(example_2):
     """Test that ints are extracted properly."""
